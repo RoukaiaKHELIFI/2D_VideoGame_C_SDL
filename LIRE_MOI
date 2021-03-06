@@ -1,0 +1,13 @@
+pour demmarer le jeu avec Linux :
+
+gcc -o prog  main.c code.c enigme.c enigme2.c score_collision.c ent_sec.c  -lm -lSDL_mixer  `sdl-config --libs --cflags` -lSDL_image -lSDL_ttf  -lSDL
+
+
+./prog
+
+
+
+pour demmarer l'enigme il faut 'cliquez' sur la touche "P" du clavier //
+cliquez sur la touche "R" du clavier pour affiche la correction d'engime //
+
+>>>
